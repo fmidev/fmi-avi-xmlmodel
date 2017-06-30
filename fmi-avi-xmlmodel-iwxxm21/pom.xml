@@ -12,13 +12,26 @@
   <artifactId>fmi-avi-xmlmodel-iwxxm21</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <dependencies>
+    <dependency>
+      <groupId>fi.fmi.xmlmodel</groupId>
+      <artifactId>fmi-avi-xmlmodel-gml32</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <!-- TODO: add O&M, AIXM, sampling spatial, metce 2013 -->
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>jaxb2-maven-plugin</artifactId>
+        <groupId>org.jvnet.jaxb2.maven2</groupId>
+        <artifactId>maven-jaxb2-plugin</artifactId>
         <configuration>
-          <sources></sources>
+          <schemas>
+            <schema>
+              <url>https://schemas.wmo.int/iwxxm/2.1/iwxxm.xsd</url>
+            </schema>
+          </schemas>
         </configuration>
       </plugin>
     </plugins>
