@@ -1,0 +1,7 @@
+<jxb:bindings version="1.0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <jxb:bindings schemaLocation="http://www.w3.org/2001/03/xml.xsd" node="//xsd:schema">
+        <jxb:schemaBindings>
+            <jxb:package name="org.w3c.xml"/>
+        </jxb:schemaBindings>
+    </jxb:bindings>
+</jxb:bindings>

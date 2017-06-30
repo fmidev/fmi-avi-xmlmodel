@@ -1,0 +1,95 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+
+	<jaxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd" node="//xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="net.opengis.gml32"/>
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.2.1/geometryPrimitives.xsd" node="//xs:schema">
+		<jaxb:bindings node="//xs:group[@name='PointGrid']/xs:sequence/xs:element[@name='rows']">
+			<jaxb:property name="PointGridRows"/>
+		</jaxb:bindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.2.1/grids.xsd" node="//xs:schema">
+		<jaxb:bindings node="//xs:complexType[@name='GridType']/xs:complexContent/xs:extension/xs:sequence/xs:choice/xs:element[@name='axisLabels']">
+			<jaxb:property name="GridAxisLabels"/>
+		</jaxb:bindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.2.1/datums.xsd" node="//xs:schema">
+		<jaxb:bindings node="//xs:element[@name='secondDefiningParameter']">
+			<jaxb:class name="SecondDefiningParameterProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='ellipsoid']">
+			<jaxb:class name="EllipsoidProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='primeMeridian']">
+			<jaxb:class name="PrimeMeridianProperty"/>
+		</jaxb:bindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.2.1/coordinateOperations.xsd" node="//xs:schema">
+		<jaxb:bindings node="//xs:element[@name='parameterValue']">
+			<jaxb:class name="ParameterValueProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='operationParameter']">
+			<jaxb:class name="OperationParameterProperty"/>
+		</jaxb:bindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.2.1/coordinateReferenceSystems.xsd" node="//xs:schema">
+		<jaxb:bindings node="//xs:element[@name='conversion']">
+			<jaxb:class name="ConversionProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='ellipsoidalCS']">
+			<jaxb:class name="EllipsoidalCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='cartesianCS']">
+			<jaxb:class name="CartesianCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='sphericalCS']">
+			<jaxb:class name="SphericalCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='geodeticDatum']">
+			<jaxb:class name="GeodeticDatumProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='verticalCS']">
+			<jaxb:class name="VerticalCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='verticalDatum']">
+			<jaxb:class name="VerticalDatumProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='cylindricalCS']">
+			<jaxb:class name="CylindricalCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='linearCS']">
+			<jaxb:class name="LinearCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='polarCS']">
+			<jaxb:class name="PolarCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='userDefinedCS']">
+			<jaxb:class name="UserDefinedCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='engineeringDatum']">
+			<jaxb:class name="EngineeringDatumProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='affineCS']">
+			<jaxb:class name="AffineCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='imageDatum']">
+			<jaxb:class name="ImageDatumProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='timeCS']">
+			<jaxb:class name="TimeCSProperty"/>
+		</jaxb:bindings>
+		<jaxb:bindings node="//xs:element[@name='temporalDatum']">
+			<jaxb:class name="TemporalDatumProperty"/>
+		</jaxb:bindings>
+	</jaxb:bindings>
+
+</jaxb:bindings>
