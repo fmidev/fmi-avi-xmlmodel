@@ -22,7 +22,7 @@
           <schemas>
             <schema>
               <!-- this will be redirected to a local files by the catalog -->
-              <url>http://www.w3.org/2001/xml.xsd</url>
+              <url>http://www.w3.org/2001/03/xml.xsd</url>
             </schema>
           </schemas>
         </configuration>
