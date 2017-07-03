@@ -41,7 +41,7 @@
             <execution>
               <!-- Cleanup after XJC, the GMD stuff should not be generated here at all (by episode) -->
               <id>prune-iso19139</id>
-              <phase>process-classes</phase>
+              <phase>prepare-package</phase>
               <goals>
                 <goal>run</goal>
               </goals>

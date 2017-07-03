@@ -46,7 +46,7 @@
               provided by the project xmlmodel-gml32 (which depends on this project).
             -->
             <id>prune-gml32</id>
-            <phase>process-classes</phase>
+            <phase>prepare-package</phase>
             <goals>
               <goal>run</goal>
             </goals>
