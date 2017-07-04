@@ -1,0 +1,18 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+	
+	<jaxb:bindings schemaLocation="http://xml.fmi.fi/schema/aviation-weather/2017/07/04/fmiavi.xsd" node="//xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="fi.fmi.xml.fmiavi20170704"/>
+        </jaxb:schemaBindings>
+        <jaxb:bindings node="//xs:complexType[@name='ProcessType']/xs:complexContent//xs:extension//xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="processName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:complexType[@name='ProcessType']/xs:complexContent//xs:extension//xs:sequence/xs:element[@name='description']">
+            <jaxb:property name="processDescription"/>
+        </jaxb:bindings> 
+    </jaxb:bindings>
+    
+
+</jaxb:bindings>

@@ -25,6 +25,9 @@
     <module>fmi-avi-xmlmodel-wmo-metce2013</module>
     <module>fmi-avi-xmlmodel-wmo-opm2013</module>
     <module>fmi-avi-xmlmodel-iwxxm21</module>
+    <module>fmi-avi-xmlmodel-xmldsig11</module>
+    <module>fmi-avi-xmlmodel-fmiavi20170704</module>
+
   </modules>
 
   

@@ -1,0 +1,4 @@
+REWRITE_SYSTEM "http://www.w3.org/2001/03/xml.xsd" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-xml-namespace2001:jar::!/org/w3/2001/03/xml.xsd"
+REWRITE_SYSTEM "http://www.w3.org/2001/xml.xsd" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-xml-namespace2001:jar::!/org/w3/2001/03/xml.xsd"
+REWRITE_SYSTEM "http://www.w3.org/2001/" "org/w3/2001/xmlschema/"
+REWRITE_SYSTEM "http://www.w3.org/TR/xmldsig-core/" "org/w3/TR/xmldsig-core/"
