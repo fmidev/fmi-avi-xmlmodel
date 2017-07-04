@@ -10,7 +10,6 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-  <version>1.0-SNAPSHOT</version>
 
 
   <build>

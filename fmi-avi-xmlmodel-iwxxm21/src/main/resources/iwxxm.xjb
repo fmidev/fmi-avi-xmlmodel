@@ -4,7 +4,7 @@
 
 	<jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2.1/iwxxm.xsd" node="//xs:schema">
 		<jaxb:schemaBindings>
-			<jaxb:package name="int.icao.iwxxm21"/>
+			<jaxb:package name="icao.iwxxm21"/>
 		</jaxb:schemaBindings>
 	</jaxb:bindings>
 

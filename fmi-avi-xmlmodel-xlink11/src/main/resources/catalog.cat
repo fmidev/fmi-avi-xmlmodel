@@ -1,2 +1,3 @@
-REWRITE_SYSTEM "http://www.w3.org/2001/03/xml.xsd" "maven:fi.fmi.xmlmodel:xmlmodel-xml-namespace2001!/org/w3/2001/03/xml.xsd"
-REWRITE_SYSTEM "http://www.w3.org/1999/xlink.xsd" "org/w3/xlink.1.1/xlink.xsd"
+REWRITE_SYSTEM "http://www.w3.org/2001/03/xml.xsd" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-xml-namespace2001:jar::!/org/w3/2001/03/xml.xsd"
+REWRITE_SYSTEM "http://www.w3.org/2001/xml.xsd" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-xml-namespace2001:jar::!/org/w3/2001/03/xml.xsd"
+REWRITE_SYSTEM "http://www.w3.org/1999/xlink.xsd" "org/w3/xlink/1.1/xlink.xsd"
