@@ -1,0 +1,23 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+	
+	<jaxb:bindings schemaLocation="http://www.aixm.aero/schema/5.1.1_profiles/AIXM_WX/5.1.1a/AIXM_Features.xsd" node="//xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="aero.aixm511"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="http://www.aixm.aero/schema/5.1.1_profiles/AIXM_WX/5.1.1a/AIXM_Features.xsd" node="//xs:schema">
+        <jaxb:bindings node="//xs:group[@name='AirportHeliportPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="portName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='UnitPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="unitName"/>
+        </jaxb:bindings>
+         <jaxb:bindings node="//xs:group[@name='AirspacePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="airspaceName"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>
