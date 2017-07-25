@@ -2,6 +2,8 @@
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
 	
+	<jaxb:globalBindings generateElementProperty="false"/>
+	
 	<jaxb:bindings schemaLocation="http://www.aixm.aero/schema/5.1.1_profiles/AIXM_WX/5.1.1a/AIXM_Features.xsd" node="//xs:schema">
         <jaxb:schemaBindings>
             <jaxb:package name="aero.aixm511"/>
