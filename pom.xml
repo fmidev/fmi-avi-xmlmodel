@@ -29,9 +29,9 @@
     <module>fmi-avi-xmlmodel-fmiavi20170704</module>
 
   </modules>
-  <properties>
-    <scm-url>scm:git:https://github.com/${github-repo-owner}/${project.artifactId}.git</scm-url>
-  </properties>
+  <scm>
+    <developerConnection>scm:git:https://github.com/${github-repo-owner}/${project.artifactId}.git</developerConnection>
+  </scm>
   <build>
     <pluginManagement>
       <plugins>
