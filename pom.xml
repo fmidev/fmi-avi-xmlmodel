@@ -30,7 +30,9 @@
 
   </modules>
 
-  
+  <properties>
+    <scm.root>scm:git:https://github.com/${github-repo-owner}/fmi-avi-xmlmodel/</scm.root>
+  </properties>
 
   <build>
     <pluginManagement>

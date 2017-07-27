@@ -7,7 +7,9 @@
   </parent>
   
   <artifactId>fmi-avi-xmlmodel-fmiavi20170704</artifactId>
-  
+  <scm>
+    <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
+  </scm>
    <dependencies>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>

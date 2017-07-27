@@ -10,7 +10,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-
+  <scm>
+    <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
+  </scm>
 
   <build>
     <plugins>

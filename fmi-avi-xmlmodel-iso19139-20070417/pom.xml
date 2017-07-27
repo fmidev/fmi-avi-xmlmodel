@@ -10,7 +10,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>fmi-avi-xmlmodel-iso19139-20070417</artifactId>
-
+  <scm>
+    <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>

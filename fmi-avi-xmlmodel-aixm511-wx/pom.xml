@@ -9,7 +9,9 @@
   </parent>
 
   <artifactId>fmi-avi-xmlmodel-aixm511-wx</artifactId>
-  
+  <scm>
+    <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
+  </scm>
   <dependencies>
   
     <dependency>
