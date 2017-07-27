@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>fmi-avi-xmlmodel</artifactId>
     <groupId>fi.fmi.xmlmodel</groupId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>fmi-avi-xmlmodel-gml32</artifactId>
   <scm>
     <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
-    <tag>HEAD</tag>
   </scm>
   <dependencies>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xlink11</artifactId>
-      <version>1.1-SNAPSHOT</version>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-      <version>1.1-SNAPSHOT</version>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-iso19139-20070417</artifactId>
-      <version>1.1-SNAPSHOT</version>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
@@ -57,10 +58,10 @@
               </goals>
               <configuration>
                 <target>
-                  <echo message="Pruning generated ISO GMD ObjectFactory..." />
+                  <echo message="Pruning generated ISO GMD ObjectFactory..."/>
                   <delete>
-                    <fileset dir="${project.basedir}/target/generated-sources/xjc/org/iso19139/ogc2007/gmd" includes="ObjectFactory.java" />
-                    <fileset dir="${project.build.outputDirectory}/org/iso19139/ogc2007/gmd" includes="ObjectFactory.class" />
+                    <fileset dir="${project.basedir}/target/generated-sources/xjc/org/iso19139/ogc2007/gmd" includes="ObjectFactory.java"/>
+                    <fileset dir="${project.build.outputDirectory}/org/iso19139/ogc2007/gmd" includes="ObjectFactory.class"/>
                   </delete>
                 </target>
               </configuration>
