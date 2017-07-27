@@ -3,42 +3,43 @@
   <parent>
     <groupId>fi.fmi.xmlmodel</groupId>
     <artifactId>fmi-avi-xmlmodel</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
   </parent>
   <artifactId>fmi-avi-xmlmodel-sampling-spatial20</artifactId>
   <scm>
     <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
+    <tag>fmi-avi-xmlmodel-1.0</tag>
   </scm>
   <dependencies>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xlink11</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-iso19139-20070417</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>   
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-gml32</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-om20</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-sampling20</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
   </dependencies>
 
@@ -69,12 +70,12 @@
               </goals>
               <configuration>
                 <target>
-                  <echo message="Pruning generated Sampling 2.0 ObjectFactory..."/>
+                  <echo message="Pruning generated Sampling 2.0 ObjectFactory..." />
                   <delete>
-                    <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/sampling" includes="ObjectFactory.java"/>
-                    <fileset dir="${project.build.outputDirectory}/net/opengis/sampling" includes="ObjectFactory.class"/>
-                    <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/gml32" includes="ObjectFactory.java"/>
-                    <fileset dir="${project.build.outputDirectory}/net/opengis/gml32" includes="ObjectFactory.class"/>
+                    <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/sampling" includes="ObjectFactory.java" />
+                    <fileset dir="${project.build.outputDirectory}/net/opengis/sampling" includes="ObjectFactory.class" />
+                    <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/gml32" includes="ObjectFactory.java" />
+                    <fileset dir="${project.build.outputDirectory}/net/opengis/gml32" includes="ObjectFactory.class" />
                   </delete>
                 </target>
               </configuration>
