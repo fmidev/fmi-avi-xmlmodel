@@ -91,22 +91,15 @@
             </execution>
           </executions>
         </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <configuration>
+            <arguments>-Dmaven.javadoc.skip=true</arguments>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
-    <!-- 
-    <plugins>
-      <plugin>
-        <groupId>com.github.danielflower.mavenplugins</groupId>
-        <artifactId>multi-module-maven-release-plugin</artifactId>
-        <version>2.1.4</version>
-        <configuration>
-          <releaseGoals>
-            <releaseGoal>deploy</releaseGoal>
-           </releaseGoals>
-        </configuration>
-      </plugin>
-    </plugins> -->
-
   </build>
   
 </project>
