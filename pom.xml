@@ -29,11 +29,7 @@
     <module>fmi-avi-xmlmodel-fmiavi20170704</module>
 
   </modules>
-
-  <properties>
-    <scm.root>scm:git:https://github.com/${github-repo-owner}/fmi-avi-xmlmodel/</scm.root>
-  </properties>
-
+  
   <build>
     <pluginManagement>
       <plugins>
@@ -56,7 +52,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -95,9 +91,19 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    
+    <plugins>
+      <plugin>
+        <groupId>com.github.danielflower.mavenplugins</groupId>
+        <artifactId>multi-module-maven-release-plugin</artifactId>
+        <version>2.1.4</version>
+        <configuration>
+          <releaseGoals>
+            <releaseGoal>deploy</releaseGoal>
+           </releaseGoals>
+        </configuration>
+      </plugin>
+    </plugins>
 
   </build>
-
-
+  
 </project>
