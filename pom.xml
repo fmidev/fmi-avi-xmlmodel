@@ -11,7 +11,7 @@
   <groupId>fi.fmi.xmlmodel</groupId>
   <artifactId>fmi-avi-xmlmodel</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <modules>
     <module>fmi-avi-xmlmodel-xlink11</module>
@@ -54,7 +54,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -98,4 +98,8 @@
   </build>
 
 
+
+  <scm>
+    <tag>fmi-avi-xmlmodel-1.0</tag>
+  </scm>
 </project>

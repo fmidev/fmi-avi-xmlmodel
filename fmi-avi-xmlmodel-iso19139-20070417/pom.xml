@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>fmi-avi-xmlmodel</artifactId>
     <groupId>fi.fmi.xmlmodel</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -15,12 +13,12 @@
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xlink11</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
   </dependencies>
   <build>
@@ -34,7 +32,7 @@
               <url>http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd</url>
             </schema>
           </schemas>
-          <episode></episode>
+          <episode />
         </configuration>
       </plugin>
       <plugin>
@@ -56,21 +54,17 @@
             </goals>
             <configuration>
               <target>
-                <echo message="Pruning generated GML 3.2 stuff..."/>
+                <echo message="Pruning generated GML 3.2 stuff..." />
 
                 <!-- clean the GML bindings from the generated episode file: -->
-                <xslt
-                  in="${project.build.outputDirectory}/META-INF/sun-jaxb.episode"
-                  out="${project.build.outputDirectory}/META-INF/sun-jaxb.episode.tmp"
-                  style="${project.basedir}/src/main/resources/strip-gml-bindings-from-episode.xsl"/>
+                <xslt in="${project.build.outputDirectory}/META-INF/sun-jaxb.episode" out="${project.build.outputDirectory}/META-INF/sun-jaxb.episode.tmp" style="${project.basedir}/src/main/resources/strip-gml-bindings-from-episode.xsl" />
 
                 <!-- Delete the GML classes and replace the original episode with the edited one: -->
                 <delete>
                   <fileset dir="${project.build.outputDirectory}/net" />
-                  <fileset dir="${project.build.outputDirectory}/META-INF" includes="sun-jaxb.episode"/>
+                  <fileset dir="${project.build.outputDirectory}/META-INF" includes="sun-jaxb.episode" />
                 </delete>
-                <move file="${project.build.outputDirectory}/META-INF/sun-jaxb.episode.tmp"
-                  tofile="${project.build.outputDirectory}/META-INF/sun-jaxb.episode"/>
+                <move file="${project.build.outputDirectory}/META-INF/sun-jaxb.episode.tmp" tofile="${project.build.outputDirectory}/META-INF/sun-jaxb.episode" />
 
               </target>
             </configuration>
