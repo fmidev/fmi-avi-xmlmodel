@@ -1,0 +1,11 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+	
+	<jaxb:bindings schemaLocation="http://schemas.wmo.int/collect/1.2/collect.xsd" node="//xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="wmo.collect2014"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>
