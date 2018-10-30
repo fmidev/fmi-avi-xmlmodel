@@ -3,21 +3,21 @@
   <parent>
     <artifactId>fmi-avi-xmlmodel</artifactId>
     <groupId>fi.fmi.xmlmodel</groupId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>fmi-avi-xmlmodel-xlink11</artifactId>
   <scm>
     <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
-    <tag>HEAD</tag>
+    <tag>fmi-avi-xmlmodel-1.2</tag>
   </scm>
   
   <dependencies>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-      <version>1.2-SNAPSHOT</version>
+      <version>1.2</version>
     </dependency>
   </dependencies>
 

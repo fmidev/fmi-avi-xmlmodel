@@ -4,44 +4,44 @@
   <parent>
     <groupId>fi.fmi.xmlmodel</groupId>
     <artifactId>fmi-avi-xmlmodel</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
   </parent>
   
   <artifactId>fmi-avi-xmlmodel-wmo-metce2013</artifactId>
   <scm>
     <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
-    <tag>HEAD</tag>
+    <tag>fmi-avi-xmlmodel-1.2</tag>
   </scm>
   <dependencies>
    <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xlink11</artifactId>
-      <version>1.2-SNAPSHOT</version>
+      <version>1.2</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-      <version>1.2-SNAPSHOT</version>
+      <version>1.2</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-iso19139-20070417</artifactId>
-      <version>1.2-SNAPSHOT</version>
+      <version>1.2</version>
     </dependency>   
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-gml32</artifactId>
-      <version>1.2-SNAPSHOT</version>
+      <version>1.2</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-om20</artifactId>
-      <version>1.2-SNAPSHOT</version>
+      <version>1.2</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-wmo-opm2013</artifactId>
-      <version>1.2-SNAPSHOT</version>
+      <version>1.2</version>
     </dependency>
   </dependencies>
   <build>

@@ -11,7 +11,7 @@
   <groupId>fi.fmi.xmlmodel</groupId>
   <artifactId>fmi-avi-xmlmodel</artifactId>
   <packaging>pom</packaging>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
 
   <modules>
     <module>fmi-avi-xmlmodel-xlink11</module>
@@ -32,7 +32,7 @@
   </modules>
   <scm>
     <developerConnection>scm:git:https://github.com/${github-repo-owner}/${project.artifactId}.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>fmi-avi-xmlmodel-1.2</tag>
   </scm>
   <build>
     <pluginManagement>
