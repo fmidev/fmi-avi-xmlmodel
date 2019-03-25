@@ -52,6 +52,31 @@
             </schemas>
           </configuration>
         </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.7</version>
+        <executions>
+          <execution>
+            <!-- Cleanup after XJC -->
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <target>
+                <echo message="Pruning generated GML 3.2 ObjectFactory..." />
+                <delete>
+                  <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/gml32" includes="ObjectFactory.java" />
+                  <fileset dir="${project.build.outputDirectory}/net/opengis/gml32" includes="ObjectFactory.class" />
+                  <fileset dir="${project.basedir}/target/generated-sources/xjc/org/w3c/xmldsig/core" includes="ObjectFactory.java" />
+                  <fileset dir="${project.build.outputDirectory}/org/w3c/xmldsig/core" includes="ObjectFactory.class" />
+                </delete>
+              </target>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
       </plugins>
     </build>
 </project>
