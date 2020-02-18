@@ -1,0 +1,7 @@
+REWRITE_SYSTEM "http://www.w3.org/2001/03/xml.xsd" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-xml-namespace2001:jar::!/org/w3/2001/03/xml.xsd"
+REWRITE_SYSTEM "http://www.w3.org/2001/xml.xsd" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-xml-namespace2001:jar::!/org/w3/2001/03/xml.xsd"
+REWRITE_SYSTEM "http://www.w3.org/1999/xlink.xsd" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-xlink11:jar::!/org/w3/xlink/1.1/xlink.xsd"
+REWRITE_SYSTEM "http://schemas.opengis.net/iso/19139/20070417/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-iso19139-20070417:jar::!/iso/19139/20070417/"
+REWRITE_SYSTEM "http://schemas.opengis.net/gml/3.2.1/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-gml32:jar::!/net/opengis/gml/3.2.1/"
+REWRITE_SYSTEM "http://schemas.opengis.net/gml/3.1.1/smil/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-gml32:jar::!/net/opengis/gml/3.1.1/smil/"
+REWRITE_SYSTEM "http://www.aixm.aero/schema/5.1.1_profiles/AIXM_WX/5.1.1b/" "aero/aixm/schema/5.1.1b/"

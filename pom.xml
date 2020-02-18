@@ -28,6 +28,8 @@
     <module>fmi-avi-xmlmodel-xmldsig11</module>
     <module>fmi-avi-xmlmodel-fmiavi20170704</module>
     <module>fmi-avi-xmlmodel-wmo-collect2014</module>
+    <module>fmi-avi-xmlmodel-iwxxm30</module>
+    <module>fmi-avi-xmlmodel-aixm511b-wx</module>
 
   </modules>
   <scm>
