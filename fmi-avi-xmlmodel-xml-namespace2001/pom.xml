@@ -3,14 +3,14 @@
   <parent>
     <artifactId>fmi-avi-xmlmodel</artifactId>
     <groupId>fi.fmi.xmlmodel</groupId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.4</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
   <scm>
     <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
-    <tag>HEAD</tag>
+    <tag>fmi-avi-xmlmodel-1.4</tag>
   </scm>
 
   <build>
