@@ -10,4 +10,4 @@ REWRITE_SYSTEM "http://schemas.wmo.int/opm/1.2/" "maven:fi.fmi.xmlmodel:fmi-avi-
 REWRITE_SYSTEM "http://schemas.opengis.net/om/2.0/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-om20:jar::!/net/opengis/om/2.0/"
 REWRITE_SYSTEM "http://schemas.opengis.net/sampling/2.0/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-sampling20:jar::!/net/opengis/sampling/2.0/"
 REWRITE_SYSTEM "http://schemas.opengis.net/samplingSpatial/2.0/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-sampling-spatial20:jar::!/net/opengis/samplingSpatial/2.0/"
-REWRITE_SYSTEM "https://schemas.wmo.int/iwxxm/2.1/" "int/icao/iwxxm/2.1.1/"
+REWRITE_SYSTEM "https://schemas.wmo.int/iwxxm/2.1.1/" "int/icao/iwxxm/2.1.1/"
