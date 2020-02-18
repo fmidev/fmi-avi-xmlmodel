@@ -4,7 +4,7 @@
   <parent>
     <groupId>fi.fmi.xmlmodel</groupId>
     <artifactId>fmi-avi-xmlmodel</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.4-SNAPSHOT</version>
   </parent>
 
   <artifactId>fmi-avi-xmlmodel-wmo-opm2013</artifactId>
@@ -16,22 +16,22 @@
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xlink11</artifactId>
-      <version>1.5-SNAPSHOT</version>
+      <version>1.4-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-      <version>1.5-SNAPSHOT</version>
+      <version>1.4-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-iso19139-20070417</artifactId>
-      <version>1.5-SNAPSHOT</version>
+      <version>1.4-SNAPSHOT</version>
     </dependency>   
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-gml32</artifactId>
-      <version>1.5-SNAPSHOT</version>
+      <version>1.4-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
