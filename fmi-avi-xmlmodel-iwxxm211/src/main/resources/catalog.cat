@@ -4,7 +4,7 @@ REWRITE_SYSTEM "http://www.w3.org/1999/xlink.xsd" "maven:fi.fmi.xmlmodel:fmi-avi
 REWRITE_SYSTEM "http://schemas.opengis.net/iso/19139/20070417/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-iso19139-20070417:jar::!/iso/19139/20070417/"
 REWRITE_SYSTEM "http://schemas.opengis.net/gml/3.2.1/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-gml32:jar::!/net/opengis/gml/3.2.1/"
 REWRITE_SYSTEM "http://schemas.opengis.net/gml/3.1.1/smil/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-gml32:jar::!/net/opengis/gml/3.1.1/smil/"
-REWRITE_SYSTEM "http://www.aixm.aero/schema/5.1.1_profiles/AIXM_WX/5.1.1a/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-aixm511-wx:jar::!/aero/aixm/schema/5.1.1/"
+REWRITE_SYSTEM "http://www.aixm.aero/schema/5.1.1_profiles/AIXM_WX/5.1.1a/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-aixm511b-wx:jar::!/aero/aixm/schema/5.1.1b/"
 REWRITE_SYSTEM "http://schemas.wmo.int/metce/1.2/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-wmo-metce2013:jar::!/int/wmo/metce/1.2/"
 REWRITE_SYSTEM "http://schemas.wmo.int/opm/1.2/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-wmo-opm2013:jar::!/int/wmo/opm/1.2/"
 REWRITE_SYSTEM "http://schemas.opengis.net/om/2.0/" "maven:fi.fmi.xmlmodel:fmi-avi-xmlmodel-om20:jar::!/net/opengis/om/2.0/"

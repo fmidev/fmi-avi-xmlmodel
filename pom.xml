@@ -21,7 +21,7 @@
     <module>fmi-avi-xmlmodel-om20</module>
     <module>fmi-avi-xmlmodel-sampling20</module>
     <module>fmi-avi-xmlmodel-sampling-spatial20</module>
-    <module>fmi-avi-xmlmodel-aixm511-wx</module>
+    <!-- module>fmi-avi-xmlmodel-aixm511-wx</module -->
     <module>fmi-avi-xmlmodel-wmo-metce2013</module>
     <module>fmi-avi-xmlmodel-wmo-opm2013</module>
     <module>fmi-avi-xmlmodel-iwxxm211</module>

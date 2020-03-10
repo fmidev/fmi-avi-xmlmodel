@@ -96,8 +96,8 @@
                 <delete>
                   <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/gml32" includes="ObjectFactory.java" />
                   <fileset dir="${project.build.outputDirectory}/net/opengis/gml32" includes="ObjectFactory.class" />
-                  <fileset dir="${project.basedir}/target/generated-sources/xjc/aero/aixm511b" includes="ObjectFactory.java" />
-                  <fileset dir="${project.build.outputDirectory}/aero/aixm511b" includes="ObjectFactory.class" />
+                  <fileset dir="${project.basedir}/target/generated-sources/xjc/aero/aixm511" includes="ObjectFactory.java" />
+                  <fileset dir="${project.build.outputDirectory}/aero/aixm511" includes="ObjectFactory.class" />
                 </delete>
               </target>
             </configuration>
