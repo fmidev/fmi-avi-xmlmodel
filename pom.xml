@@ -21,7 +21,7 @@
     <module>fmi-avi-xmlmodel-om20</module>
     <module>fmi-avi-xmlmodel-sampling20</module>
     <module>fmi-avi-xmlmodel-sampling-spatial20</module>
-    <module>fmi-avi-xmlmodel-aixm511-wx</module>
+    <!-- module>fmi-avi-xmlmodel-aixm511-wx</module -->
     <module>fmi-avi-xmlmodel-wmo-metce2013</module>
     <module>fmi-avi-xmlmodel-wmo-opm2013</module>
     <module>fmi-avi-xmlmodel-iwxxm211</module>
@@ -36,6 +36,14 @@
     <developerConnection>scm:git:https://github.com/${github-repo-owner}/${project.artifactId}.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+  <dependencies>
+      <dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>2.3.1</version>
+        <optional>true</optional>
+      </dependency>
+  </dependencies>
   <build>
     <pluginManagement>
       <plugins>

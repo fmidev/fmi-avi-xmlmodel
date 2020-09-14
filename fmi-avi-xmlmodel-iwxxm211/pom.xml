@@ -50,7 +50,7 @@
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
-      <artifactId>fmi-avi-xmlmodel-aixm511-wx</artifactId>
+      <artifactId>fmi-avi-xmlmodel-aixm511b-wx</artifactId>
       <version>1.5-SNAPSHOT</version>
     </dependency>
     <dependency>
@@ -91,7 +91,7 @@
               </goals>
               <configuration>
                 <target>
-                  <echo message="Pruning generated GML 3.2 ObjectFactory..." />
+                  <echo message="Pruning generated ObjectFactories..." />
                   <delete>
                     <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/gml32" includes="ObjectFactory.java" />
                     <fileset dir="${project.build.outputDirectory}/net/opengis/gml32" includes="ObjectFactory.class" />
@@ -120,6 +120,14 @@
                     </goals>
                 </execution>
             </executions>
+            <dependencies>
+              <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>2.3.1</version>
+                <optional>true</optional>
+              </dependency>
+            </dependencies>
         </plugin>
     </plugins>
   </build>

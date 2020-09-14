@@ -96,8 +96,8 @@
                 <delete>
                   <fileset dir="${project.basedir}/target/generated-sources/xjc/net/opengis/gml32" includes="ObjectFactory.java" />
                   <fileset dir="${project.build.outputDirectory}/net/opengis/gml32" includes="ObjectFactory.class" />
-                  <fileset dir="${project.basedir}/target/generated-sources/xjc/aero/aixm511b" includes="ObjectFactory.java" />
-                  <fileset dir="${project.build.outputDirectory}/aero/aixm511b" includes="ObjectFactory.class" />
+                  <fileset dir="${project.basedir}/target/generated-sources/xjc/aero/aixm511" includes="ObjectFactory.java" />
+                  <fileset dir="${project.build.outputDirectory}/aero/aixm511" includes="ObjectFactory.class" />
                 </delete>
               </target>
             </configuration>
@@ -121,7 +121,39 @@
             </goals>
           </execution>
         </executions>
+        <dependencies>
+          <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+            <optional>true</optional>
+          </dependency>
+        </dependencies>
       </plugin>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.1.0</version>
+          <executions>
+            <execution>
+              <id>copy-resources</id>
+              <phase>prepare-package</phase>
+              <goals>
+                <goal>copy-resources</goal>
+              </goals>
+              <configuration>
+                <outputDirectory>${build.outputDirectory}/schematron/xslt</outputDirectory>
+                <resources>
+                  <resource>
+                    <directory>${basedir}/src/main/resources/</directory>
+                    <includes>
+                      <include>**/*.rdf</include>
+                    </includes>
+                  </resource>
+                </resources>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
     </plugins>
   </build>
 

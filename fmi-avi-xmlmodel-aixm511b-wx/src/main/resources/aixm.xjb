@@ -6,7 +6,7 @@
 	
 	<jaxb:bindings schemaLocation="http://www.aixm.aero/schema/5.1.1_profiles/AIXM_WX/5.1.1b/AIXM_Features.xsd" node="//xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="aero.aixm511b"/>
+            <jaxb:package name="aero.aixm511"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
