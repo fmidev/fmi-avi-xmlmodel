@@ -94,6 +94,7 @@
             <useDependenciesAsEpisodes>true</useDependenciesAsEpisodes>
             <catalog>src/main/resources/catalog.cat</catalog>
             <strict>false</strict>
+            <useActiveProxyAsHttpproxy>true</useActiveProxyAsHttpproxy>
           </configuration>
           <executions>
             <execution>
