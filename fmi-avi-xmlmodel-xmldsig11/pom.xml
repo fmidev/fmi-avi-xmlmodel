@@ -3,7 +3,7 @@
   <parent>
     <groupId>fi.fmi.xmlmodel</groupId>
     <artifactId>fmi-avi-xmlmodel</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5.0</version>
   </parent>
   <artifactId>fmi-avi-xmlmodel-xmldsig11</artifactId>
   
