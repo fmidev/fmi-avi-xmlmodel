@@ -110,7 +110,7 @@
             <configuration>
                 <schematronDirectory>${basedir}/src/main/resources/</schematronDirectory>
                 <schematronPattern>**/*.sch</schematronPattern>
-                <xsltDirectory>${build.outputDirectory}/schematron/xslt</xsltDirectory>
+                <xsltDirectory>${project.build.outputDirectory}/schematron/xslt</xsltDirectory>
                 <xsltExtension>.xsl</xsltExtension>
             </configuration>
             <executions>
