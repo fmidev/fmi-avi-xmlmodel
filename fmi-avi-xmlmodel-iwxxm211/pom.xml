@@ -3,65 +3,65 @@
   <parent>
     <artifactId>fmi-avi-xmlmodel</artifactId>
     <groupId>fi.fmi.xmlmodel</groupId>
-    <version>1.6.0</version>
+    <version>1.6.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>fmi-avi-xmlmodel-iwxxm211</artifactId>
   <scm>
     <developerConnection>${scm.root}/${project.artifactId}.git/</developerConnection>
-    <tag>fmi-avi-xmlmodel-1.6.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <dependencies>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xlink11</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-xml-namespace2001</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-iso19139-20070417</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>   
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-gml32</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-om20</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-sampling20</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-sampling-spatial20</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-aixm511b-wx</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-wmo-metce2013</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
      <dependency>
       <groupId>fi.fmi.xmlmodel</groupId>
       <artifactId>fmi-avi-xmlmodel-wmo-opm2013</artifactId>
-      <version>1.6.0</version>
+      <version>1.6.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
