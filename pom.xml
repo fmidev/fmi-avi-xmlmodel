@@ -29,8 +29,9 @@
     <module>fmi-avi-xmlmodel-fmiavi20170704</module>
     <module>fmi-avi-xmlmodel-wmo-collect2014</module>
     <module>fmi-avi-xmlmodel-iwxxm30</module>
+    <module>fmi-avi-xmlmodel-iwxxm2023-1</module>
     <module>fmi-avi-xmlmodel-aixm511b-wx</module>
-
+    <module>fmi-avi-xmlmodel-aixm511</module>
   </modules>
   <scm>
     <developerConnection>scm:git:https://github.com/${github-repo-owner}/${project.artifactId}.git</developerConnection>

@@ -1,0 +1,30 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+			   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2023-1/iwxxm.xsd" node="//xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="icao.iwxxm20231"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2023-1/spaceWxAdvisory.xsd" node="//xs:schema">
+        <jaxb:bindings
+                node="//xs:complexType[@name='SpaceWeatherRegionType']/xs:complexContent/xs:extension/xs:sequence/xs:element[@name='location']">
+            <jaxb:property name="geographicLocation"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+    <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2023-1/WAFSSigWxFC.xsd" node="//xs:schema">
+        <jaxb:bindings
+                node="//xs:complexType[@name='VolcanoType']/xs:complexContent/xs:extension/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="volcanoName"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+    <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2023-1/WAFSSigWxFC.xsd" node="//xs:schema">
+        <jaxb:bindings
+                node="//xs:complexType[@name='TropicalCycloneType']/xs:complexContent/xs:extension/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="tropicalCycloneName"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>

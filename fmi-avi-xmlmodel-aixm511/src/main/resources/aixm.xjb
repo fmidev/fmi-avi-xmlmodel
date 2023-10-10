@@ -1,0 +1,86 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <jaxb:globalBindings generateElementProperty="false"/>
+
+    <jaxb:bindings schemaLocation="http://www.aixm.aero/schema/5.1.1/AIXM_Features.xsd" node="//xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="aero.aixm511"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="http://www.aixm.aero/schema/5.1.1/AIXM_Features.xsd" node="//xs:schema">
+        <jaxb:bindings node="//xs:group[@name='AirportHeliportPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="portName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='UnitPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="unitName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='AirspacePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="airspaceName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='ProcedurePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="procedureName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='ContactInformationPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="contactInformationName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='ServicePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="serviceName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='RadarEquipmentPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="radarEquipmentName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='StandardLevelTablePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="standardLevelTableName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='SpecialDatePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="specialDateName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='RoutePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="routeName"/>
+        </jaxb:bindings>
+        <jaxb:bindings
+                node="//xs:group[@name='OrganisationAuthorityPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="organisationAuthorityName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='VerticalStructurePropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="verticalStructureName"/>
+        </jaxb:bindings>
+        <jaxb:bindings
+                node="//xs:group[@name='AeronauticalGroundLightPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="aeronauticalGroundLightName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='DesignatedPointPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="designatedPointName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='NavaidEquipmentPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="navaidEquipmentName"/>
+        </jaxb:bindings>
+        <jaxb:bindings
+                node="//xs:group[@name='SpecialNavigationSystemPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="specialNavigationSystemName"/>
+        </jaxb:bindings>
+        <jaxb:bindings
+                node="//xs:group[@name='SpecialNavigationStationPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="specialNavigationStationName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='NavaidPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="navaidName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='GeoBorderPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="geoBorderName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='ApronPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="apronName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='CityPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="cityName"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:group[@name='AerialRefuellingPropertyGroup']/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="aerialRefuellingName"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>
