@@ -1,10 +1,12 @@
 <jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
-			   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
+
+    <jaxb:globalBindings generateElementProperty="false"/>
 
     <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2023-1/iwxxm.xsd" node="//xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="icao.iwxxm20231"/>
+            <jaxb:package name="icao.iwxxm2023_1"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 

@@ -1,12 +1,11 @@
 <jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
-               xmlns:xs="http://www.w3.org/2001/XMLSchema"
->
+               xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <jaxb:globalBindings generateElementProperty="false"/>
 
     <jaxb:bindings schemaLocation="http://www.aixm.aero/schema/5.1.1/AIXM_Features.xsd" node="//xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="aero.aixm511"/>
+            <jaxb:package name="aero.aixm511full"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
