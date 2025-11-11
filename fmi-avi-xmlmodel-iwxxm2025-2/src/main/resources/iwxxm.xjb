@@ -1,0 +1,26 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <jaxb:globalBindings generateElementProperty="false"/>
+
+    <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2025-2RC2/iwxxm.xsd" node="//xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="icao.iwxxm2025_2"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2025-2RC2/metFeature.xsd" node="//xs:schema">
+        <jaxb:bindings
+                node="//xs:complexType[@name='VolcanoType']/xs:complexContent/xs:extension/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="volcanoName"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+    <jaxb:bindings schemaLocation="https://schemas.wmo.int/iwxxm/2025-2RC2/metFeature.xsd" node="//xs:schema">
+        <jaxb:bindings
+                node="//xs:complexType[@name='TropicalCycloneType']/xs:complexContent/xs:extension/xs:sequence/xs:element[@name='name']">
+            <jaxb:property name="tropicalCycloneName"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>

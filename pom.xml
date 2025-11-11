@@ -30,6 +30,7 @@
     <module>fmi-avi-xmlmodel-wmo-collect2014</module>
     <module>fmi-avi-xmlmodel-iwxxm30</module>
     <module>fmi-avi-xmlmodel-iwxxm2023-1</module>
+    <module>fmi-avi-xmlmodel-iwxxm2025-2</module>
     <module>fmi-avi-xmlmodel-aixm511b-wx</module>
     <module>fmi-avi-xmlmodel-aixm511</module>
   </modules>
