@@ -75,7 +75,7 @@
         <configuration>
           <schemas>
             <schema>
-              <url>https://schemas.wmo.int/iwxxm/2025-2RC2/iwxxm.xsd</url>
+              <url>https://schemas.wmo.int/iwxxm/2025-2/iwxxm.xsd</url>
             </schema>
           </schemas>
         </configuration>

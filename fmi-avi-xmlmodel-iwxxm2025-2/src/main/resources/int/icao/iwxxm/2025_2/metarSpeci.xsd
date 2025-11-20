@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns:iwxxm="http://icao.int/iwxxm/2025-2" xmlns:gml="http://www.opengis.net/gml/3.2" elementFormDefault="qualified"
-        targetNamespace="http://icao.int/iwxxm/2025-2" version="3.2.0RC2"
+        targetNamespace="http://icao.int/iwxxm/2025-2" version="3.2.0"
         xmlns="http://www.w3.org/2001/XMLSchema">
   <include schemaLocation="common.xsd"></include>
   <import namespace="http://www.opengis.net/gml/3.2"
@@ -356,8 +356,7 @@
           </element>
           <element nillable="true" name="rvr" minOccurs="0" maxOccurs="unbounded">
             <annotation>
-              <documentation>RVR conditions are required if horizontal visibility or RVR is less than 1500 meters, up to
-                a maximum of four runways
+              <documentation>RVR conditions are required if horizontal visibility or RVR is less than 1500 meters
               </documentation>
             </annotation>
             <complexType>

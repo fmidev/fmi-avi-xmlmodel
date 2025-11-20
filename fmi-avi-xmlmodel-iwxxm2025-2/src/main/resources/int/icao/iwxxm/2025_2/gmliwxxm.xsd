@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-        xmlns:gml="http://www.opengis.net/gml/3.2"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-        xmlns="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="http://www.opengis.net/gml/3.2"
-        elementFormDefault="qualified"
-        version="3.2.1.2">
+<schema
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  targetNamespace="http://www.opengis.net/gml/3.2"
+  elementFormDefault="qualified"
+  version="3.2.1.2">
   <annotation>
     <documentation>GML Subset schema for
       gml:AbstractFeature,gml:AbstractFeatureType,gml:AssociationAttributeGroup,gml:OwnershipAttributeGroup,gml:TimeInstantPropertyType,gml:TimePeriodPropertyType,gml:SpeedType,gml:LengthType,gml:AngleType,gml:ReferenceType,gml:AbstractGML,gml:AbstractGMLType,gml:NilReasonType,gml:AbstractObject,gml:AbstractTimeObject,gml:MeasureType,gml:PointPropertyType,gml:AssociationRoleType,

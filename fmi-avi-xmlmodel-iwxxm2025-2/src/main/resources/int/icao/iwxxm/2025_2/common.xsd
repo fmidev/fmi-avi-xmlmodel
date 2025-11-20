@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns:iwxxm="http://icao.int/iwxxm/2025-2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2"
         elementFormDefault="qualified" targetNamespace="http://icao.int/iwxxm/2025-2"
-        version="3.2.0RC2" xmlns="http://www.w3.org/2001/XMLSchema">
+        version="3.2.0" xmlns="http://www.w3.org/2001/XMLSchema">
   <import namespace="http://www.aixm.aero/schema/5.1.1"
           schemaLocation="http://www.aixm.aero/schema/5.1.1/AIXM_Features.xsd"></import>
   <import namespace="http://www.opengis.net/gml/3.2"
